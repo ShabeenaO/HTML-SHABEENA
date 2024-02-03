@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<b>, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>forms</h1>
+    <form action="abvc.jsp" method="get">
+    <h3>Payment form</h3>
+    <h3>*These fields are required</h3>
+    <label for="fname">First Name*:</label>
+        <input type="text" name="abvc" required placeholder="first name" id="fname"></label>
+    <br>
+    Last Name<input type="text" name="fname" required>
+    <br>
+    Email:<input type="email" name="mail" required>
+    <br>
+    Male:<input type="radio" name="gender" value="male" required>
+    Female:<input type="radio" name="gender" value="female" required>
+    <br>
+Address:<textarea name="address" id="address" cols="30" rows="10"></textarea>
+<br>
+Pincode:<input type="number" name="pin">
+<br>
+CardType:
+<select name="CardType" id="CardType" multiple>
+<option value="Visa card">Visa card</option>
+<option value="sbi">sbi</option>
+<option value="fdi">fdi</option>
+<option value="iob">iob</option>
+</select>
+<br>
+CardNumber:<input type="number" name="cardino" required>
+<br>
+Expirydate:<input type="date"name="expdate" required>
+<br>
+CVV Number:<input Type="password" name="CVVnum" required>
+<br>
+File input:<input type="file" name="flinp" required>
+<br>
+Image:<input type="image" name="img">
+<br>
+<input type="color" name="color" required>
+<br>
+<input type="checkbox" name="bgr">yes
+<br>
+<input type="checkbox" name="rose">No
+<br>
+<input type="reset" value="reset">
+<br>
+<input type="button" value="jasmine">
+<br>
+<input type="submit" value="pay now">
+
+
+
+</form>
+<button type="button">click</button>
+    
+</body>
+</html>
